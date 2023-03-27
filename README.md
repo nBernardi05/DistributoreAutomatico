@@ -3,7 +3,7 @@
 
 DistributoreAutomatico
 (c) 2023 Nicola Bernardi
-GNU General Public License v3.0
+GNU General Affero Public License v3.0
 
 ## About
 - [My website](https://nbernardi.tk)
