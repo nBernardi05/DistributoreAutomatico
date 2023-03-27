@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bernardisrl.distributoreautomatico.PrimaryController">
+   <children>
+      <TextField fx:id="display" alignment="CENTER" editable="false" prefHeight="134.0" prefWidth="1109.0" text="INSERIRE CREDITO">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </TextField>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+         <children>
+            <ImageView fitHeight="130.0" fitWidth="98.0" onMouseClicked="#add10" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/c10.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="130.0" fitWidth="98.0" onMouseClicked="#add20" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/c20.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="130.0" fitWidth="98.0" onMouseClicked="#add50" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/c50.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="130.0" fitWidth="98.0" onMouseClicked="#add1" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/e1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="130.0" fitWidth="98.0" onMouseClicked="#add2" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/e2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <HBox prefHeight="409.0" prefWidth="943.0">
+         <children>
+            <VBox minWidth="-Infinity" prefHeight="409.0" prefWidth="698.0">
+               <children>
+                  <HBox>
+                     <children>
+                        <Label fx:id="pr1" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" text="--" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="price1" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#buy1" text="-">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Label fx:id="pr2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" text="--" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="price2" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#buy2" text="-">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Label fx:id="pr3" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" text="--" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="price3" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#buy3" text="-">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Label fx:id="pr4" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" text="--" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="price4" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#buy4" text="-">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox>
+                     <children>
+                        <Label fx:id="pr5" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" text="--" HBox.hgrow="ALWAYS">
+                           <font>
+                              <Font size="29.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="price5" maxHeight="1.7976931348623157E308" mnemonicParsing="false" onAction="#buy5" text="-">
+                           <font>
+                              <Font size="23.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox />
+               </children>
+            </VBox>
+            <TextField fx:id="history" alignment="TOP_LEFT" editable="false" prefHeight="345.0" prefWidth="336.0" text="CRONOLOGIA ACQUISTI" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

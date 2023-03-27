@@ -1,0 +1,5 @@
+com\bernardisrl\distributoreautomatico\App.class
+com\bernardisrl\distributoreautomatico\model\Prodotto.class
+module-info.class
+com\bernardisrl\distributoreautomatico\PrimaryController.class
+com\bernardisrl\distributoreautomatico\model\Distributore.class
