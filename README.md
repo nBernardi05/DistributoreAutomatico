@@ -6,5 +6,5 @@ DistributoreAutomatico
 GNU General Public License v3.0
 
 ## About
-[My website](hhtps://nbernardi.tk)
+[My website](https://nbernardi.tk)
 [Tpsit website](https://tpsit.nbernardi.tk)
